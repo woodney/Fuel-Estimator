@@ -1,0 +1,58 @@
+{
+  "name": "softwaredesignproyect",
+  "version": "0.1.0",
+  "private": true,
+  "directories": {
+    "test": "test"
+  },
+  "dependencies": {
+    "@material-ui/core": "^3.9.3",
+    "@material-ui/icons": "^3.0.2",
+    "axios": "^0.18.0",
+    "bcrypt": "^3.0.5",
+    "chai": "^4.2.0",
+    "csv": "^5.1.1",
+    "csvtojson": "^2.0.8",
+    "d3-fetch": "^1.1.2",
+    "express": "^4.16.4",
+    "immutable": "^4.0.0-rc.12",
+    "jsonwebtoken": "^8.5.1",
+    "lodash": "^4.17.11",
+    "material-ui": "^0.20.2",
+    "mocha": "^6.0.2",
+    "mongod": "^2.0.0",
+    "mongodb": "^3.2.3",
+    "mongoose": "^5.5.4",
+    "nyc": "^14.0.0",
+    "path": "^0.12.7",
+    "react": "^16.8.6",
+    "react-dom": "^16.8.6",
+    "react-masonry-component": "^6.2.1",
+    "react-redux": "^6.0.1",
+    "react-router-dom": "^5.0.0",
+    "react-scripts": "^2.1.8",
+    "redux": "^4.0.1",
+    "redux-devtools-extension": "^2.13.8",
+    "redux-persist": "^5.10.0",
+    "redux-persist-transform-immutable": "^5.0.0",
+    "redux-saga": "^1.0.2",
+    "reselect": "^4.0.0",
+    "xlsjs": "^1.0.1",
+    "xlsx": "^0.14.2"
+  },
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "mocha ./src/test",
+    "eject": "react-scripts eject"
+  },
+  "eslintConfig": {
+    "extends": "react-app"
+  },
+  "browserslist": [
+    ">0.2%",
+    "not dead",
+    "not ie <= 11",
+    "not op_mini all"
+  ]
+}
